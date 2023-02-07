@@ -28,17 +28,17 @@ final class ViewController: UIViewController {
         )
     }
     
-    @IBAction func redSliderMove(_ sender: Any) {
+    @IBAction func redSliderMove(_ sender: UISlider) {
         redValue.text = String(format:"%.2f", redSlider.value)
         colorChange()
     }
     
-    @IBAction func greenSliderMove(_ sender: Any) {
+    @IBAction func greenSliderMove(_ sender: UISlider) {
         greenValue.text = String(format:"%.2f", greenSlider.value)
         colorChange()
     }
     
-    @IBAction func blueSliderMove(_ sender: Any) {
+    @IBAction func blueSliderMove(_ sender: UISlider) {
         blueValue.text = String(format:"%.2f", blueSlider.value)
         colorChange()
     }
